@@ -1,0 +1,127 @@
+Cd = 0.2 for all the runs
+
+================================
+Experiment set 0:
+to explore how Q1 adjust with w2
+--------------------------------
+wc1 = 0.6 (20km); bc1 = bc2 = 0.6
+
+run001 - wc2 = 0.2  
+run002 - wc2 = 0.6
+run003 - wc2 = 1.0 
+run004 - wc2 = 1.4
+run005 - wc2 = 1.8
+
+run006 - wc2 = 0.4
+run007 - wc2 = 0.8
+run008 - wc2 = 1.2
+run009 - wc2 = 1.6
+
+run010 - same as run002 but test for higher resolution
+dt = 0.005, nx = 600, ny = 1200
+
+================================
+
+================================
+Experiment set 1:
+to explore how Q1 adjust with b2
+--------------------------------
+wc1 = 0.6 (20km); wc2 = 0.6; bc1 = 0.6
+
+run101 - bc2 = 0.0  
+run102 - bc2 = 0.2
+run103 - bc2 = 0.4
+run104 - bc2 = 0.6
+run105 - bc2 = 0.8
+
+run106 - bc2 = 0.3
+run107 - bc2 = 0.5
+run108 - bc2 = 0.7
+
+================================
+
+================================
+Experiment set 2:
+to explore how Q1 adjust with w2
+--------------------------------
+wc1 = 0.6 (20km); bc1 = 0.6; bc2 = 0.4
+
+run001 - wc2 = 0.2  
+run002 - wc2 = 0.4
+run003 - wc2 = 0.6
+run004 - wc2 = 0.8
+run005 - wc2 = 1.0
+run006 - wc2 = 1.2
+run007 - wc2 = 1.4
+run008 - wc2 = 1.6
+run009 - wc2 = 1.8
+
+================================
+
+================================
+Experiment set 3:
+to explore how Q1 adjust with w2
+--------------------------------
+wc1 = 1.2 (40km); bc1 = 0.6; bc2 = 0.6
+
+run001 - wc2 = 0.2  
+run002 - wc2 = 0.6
+run003 - wc2 = 1.0 
+run004 - wc2 = 1.8
+
+run005 - wc2 = 0.4
+run006 - wc2 = 0.8
+run007 - wc2 = 1.2
+
+================================
+
+================================
+Experiment set 4:
+to explore how Q1 adjust with w2
+--------------------------------
+wc1 = 1.2 (40km); bc1 = 0.6; bc2 = 0.4
+
+run001 - wc2 = 0.2  
+run002 - wc2 = 0.4
+run003 - wc2 = 0.6
+run004 - wc2 = 0.8
+run005 - wc2 = 1.0
+run006 - wc2 = 1.2
+
+================================
+Experiment set 5:
+Same as ex4_run002 but cf=.005 dt = 0.005, nx = 600, ny = 1200
+--------------------------------
+
+================================
+Experiment set 6:
+Same as ex4 but add cb=0.2 at x>38
+--------------------------------
+
+================================
+Experiment set 7:
+Same as ex2 but dt = 0.005, nx = 600, ny = 1200
+--------------------------------
+run000 - copy from run201
+run001 - wc2 = 0.4
+run002 - wc2 = 0.8
+run003 - wc2 = 1.2
+run004 - wc2 = 1.6
+
+run005 - wc2 = 0.6
+run006 - wc2 = 1.0
+run007 - wc2 = 1.4
+run008 - wc2 = 1.8
+
+================================
+Experiment set 8:
+Same as ex7 but cf=.005 added to downstream in the channel at x>35
+--------------------------------
+
+================================
+experiment set 9:
+Same as ex7 but to explore how Q1 adjust with b2
+--------------------------------
+b2 = 0.0; 0.2; 0.4; 0.6; 0.8; 1.0
+================================
+

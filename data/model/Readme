@@ -1,0 +1,33 @@
+This test check transports out of parameter domain that Gill's model stays valid.
+
+For simplicity, we use the damping scheme: = h*u
+
+cbxy = 0.1, yd =45, ld = 1.0, t = 400
+
+h = 0.2:
+run001 - wc = 0.6, dt = 0.01, nx = 600, ny = 1200
+run002 - wc = 1.6, dt = 0.01, nx = 600, ny = 600
+run003 - wc = 2.8, dt = 0.01, nx = 600, ny = 600
+run004 - wc = 4.0, dt = 0.01, nx = 600, ny = 600 
+
+h = 0.6:
+run005 - wc = 2.8, dt = 0.01, nx = 600, ny = 600
+run006 - wc = 4.0, dt = 0.01, nx = 600, ny = 600
+
+h = 1.0:
+run007 - wc = 0.6, dt = 0.01, nx = 600, ny = 1200
+run008 - wc = 1.6, dt = 0.01, nx = 600, ny = 600
+run009 - wc = 2.8, dt = 0.01, nx = 600, ny = 600
+run010 - wc = 4.0, dt = 0.01, nx = 600, ny = 600
+
+h = 1.4:
+run011 - wc = 0.6, dt = 0.01, nx = 600, ny = 1200
+run012 - wc = 1.6, dt = 0.01, nx = 600, ny = 600
+run013 - wc = 2.8, dt = 0.01, nx = 600, ny = 600
+run014 - wc = 4.0, dt = 0.01, nx = 600, ny = 600
+
+h = 0.8:
+run015 - wc = 0.6, dt = 0.01, nx = 600, ny = 1200
+run016 - wc = 1.6, dt = 0.01, nx = 600, ny = 600
+run017 - wc = 2.8, dt = 0.01, nx = 600, ny = 600
+run018 - wc = 4.0, dt = 0.01, nx = 600, ny = 600

@@ -1,0 +1,16 @@
+SP experiments
+
+For simplicity, we use the damping scheme: = h*u
+
+yd =45, ld = 1.0, t = 800
+
+Friction experiment
+cbxy = 0.2
+run001 - wc = 1.6, h = 0.6, dt = 0.01, nx = 600, ny = 600
+run002 - wc = 0.6, h = 0.6, dt = 0.01, nx = 600, ny = 1200
+run003 - wc = 1.6, h = 0.4, dt = 0.01, nx = 600, ny = 600
+
+No Friction experiment
+cbxy = 0
+run011 - wc = 1.6, h = 0.6, dt = 0.01, nx = 600, ny = 600
+run012 - wc = 0.6, h = 0.6, dt = 0.01, nx = 600, ny = 1200

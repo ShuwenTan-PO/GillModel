@@ -1,0 +1,7 @@
+# Theory
+
+- .m files contain codes that produce theoretical solutions.
+- Gill_parabola.m and Gill_rectangular.m solve equations (2.14) and (2.25) in the paper, respectively. They yield solutions for rectangular channels and parabolic channels, respectively.
+- Gill_parabolic_nd_solve_2channel.m yields analytical solutions for the two channel senario in Section 4.2
+- Gill_parabola_SP.m predicts transport in the Samoan Passage
+
